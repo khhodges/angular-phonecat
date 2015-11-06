@@ -34,7 +34,7 @@
                 }
                 $("#images").kendoMobileListView({
                     dataSource: files,
-                    template: "<img src='#: data #'>"
+                    template: "<img src='#: data #' style='align:center'>"
                 });
             });
         }
